@@ -1,5 +1,6 @@
 {
   "name": "tt_ukad_spa_react_ts_sass",
+  "homepage": "https://arturnagaycev.github.io/vercel_test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,8 +24,8 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
-    "prettier": "^2.8.3",
     "gh-pages": "^5.0.0",
+    "prettier": "^2.8.3",
     "typescript": "^4.9.4"
   },
   "scripts": {
