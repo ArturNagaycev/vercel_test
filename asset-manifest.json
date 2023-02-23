@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vercel_test/static/css/main.6fcca1a9.css",
-    "main.js": "/vercel_test/static/js/main.916b107d.js",
-    "static/media/UKAD_logo.svg": "/vercel_test/static/media/UKAD_logo.047bc8da860930f0f6c5e1a81aed2318.svg",
-    "index.html": "/vercel_test/index.html",
-    "static/media/arrow_right.svg": "/vercel_test/static/media/arrow_right.410aa466d547332b7445.svg",
-    "main.6fcca1a9.css.map": "/vercel_test/static/css/main.6fcca1a9.css.map",
-    "main.916b107d.js.map": "/vercel_test/static/js/main.916b107d.js.map"
+    "main.css": "/static/css/main.d43894fd.css",
+    "main.js": "/static/js/main.be3aa96d.js",
+    "static/media/UKAD_logo.svg": "/static/media/UKAD_logo.047bc8da860930f0f6c5e1a81aed2318.svg",
+    "index.html": "/index.html",
+    "static/media/arrow_right.svg": "/static/media/arrow_right.410aa466d547332b7445.svg",
+    "main.d43894fd.css.map": "/static/css/main.d43894fd.css.map",
+    "main.be3aa96d.js.map": "/static/js/main.be3aa96d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fcca1a9.css",
-    "static/js/main.916b107d.js"
+    "static/css/main.d43894fd.css",
+    "static/js/main.be3aa96d.js"
   ]
 }
