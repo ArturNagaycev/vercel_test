@@ -1,6 +1,5 @@
 {
   "name": "tt_ukad_spa_react_ts_sass",
-  "homepage": "https://arturnagaycev.github.io/vercel_test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,11 +29,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build-gh": "PUBLIC_URL=https://arturnagaycev.github.io/vercel_test/ react-scripts build",
     "build": "react-scripts build",
-    "build-vercel": "PUBLIC_URL=/ react-scripts build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
