@@ -1,0 +1,42 @@
+@import '../../styles/vars';
+@import '../../styles/extends';
+
+.header {
+  @extend %flex-horizontal-centering;
+  background-color: $color-main;
+
+  &__wrapper {
+    @extend %flex-vertical-centering;
+    padding: 25px 20px;
+  }
+
+  &__logo {
+    transition: transform $transition-time;
+
+    &:hover {
+      transform: scale(105%);
+    }
+  }
+
+  &__menu {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 55px;
+  }
+
+  &__link {
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $color-white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &--active {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import './styles/reset';
+
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}

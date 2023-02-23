@@ -1,0 +1,12 @@
+@import '../../styles/vars';
+@import '../../styles/extends';
+
+.content {
+  @extend %flex-horizontal-centering;
+  flex: 1;
+
+  &__wrapper {
+    @extend %flex-vertical-centering;
+    justify-content: center;
+  }
+}
